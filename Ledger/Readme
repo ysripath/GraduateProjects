@@ -1,0 +1,30 @@
+Environmental requirement:
+C++ compiler that can compile C++ 11 standard , gcc version 5.4.0 
+Linux OS, Ubuntu 16.04 
+
+
+Steps to run,
+
+1. Extract the given .tar file using "tar -xvf ledger_yuvarajsripathi_14677313.tar"
+2. Change directory to ledger_yuvarajsripathi_14677313
+3. Run makefile using "$make" command and this will compile and install the ledger executable
+For using file input, copy the .txt file into the folder - ledger_yuvarajsripathi_14677313 and provide the file name
+
+Ex:
+storm:27% ./ledger
+f
+test.txt
+TransactioId Hash is wrong. TransId: 84dfb9b3, should be :670e3dc6
+Updating transId with correct hash value obtained from the record paylaodTransId: 84dfb9b3, to transId: 670e3dc6
+TransactioId Hash is wrong. TransId: f6847ad8, should be :8f7c7d25
+Updating transId with correct hash value obtained from the record paylaodTransId: f6847ad8, to transId: 8f7c7d25
+TransId: f2cea539, result - good
+TransId: 4787df35, result - good
+TransId: 40671f57, result - good
+TransId: 670e3dc6, result - good
+TransId: 8f7c7d25, result - good
+
+
+The correctness of the ledger maintenance depends on the correctness of the transaction records given as input. It is necessary that
+the first transaction in ledger has 0 vout
+
