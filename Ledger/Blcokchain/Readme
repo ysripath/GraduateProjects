@@ -1,7 +1,6 @@
 Environmental requirement:
 C++ compiler that can compile C++ 11 standard , gcc version 5.4.0 
 Linux OS, Ubuntu 16.04 
-Openssl library path - "/cise/homes/nemo/bin/ssl/openssl/"
 
 
 Two separate programs - txblk and wallet 
