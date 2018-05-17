@@ -1,0 +1,32 @@
+F
+ledger.txt
+P
+T
+bbbb8888; 1; (cbdf7b37, 1); 4; (Jerry, 500) (Alice, 4000) (Bob, 340) (Gopesh, 5)
+P
+B
+Jerry
+B
+Paul
+T
+bbbb1234; 1; (cbdf7b37, 1); 3; (Alice, 2000) (Bob, 2840) (Gopesh, 5)
+P
+T
+34feb213; 1; (bbbb8888, 1); 3; (Alice, 3000) (Bob, 1000) (Gopesh, 5)
+P
+B
+Gopesh
+T
+da234cfe; 1; (cbe628f2, 0); 2; (Gopesh, 95) (Bob, 5)
+P
+B
+Bob
+P
+W
+F
+ledger.txt
+P
+B
+Alice
+H
+E
