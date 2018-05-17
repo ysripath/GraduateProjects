@@ -1,6 +1,7 @@
 Environmental requirement:
 C++ compiler that can compile C++ 11 standard , gcc version 5.4.0 
 Linux OS, Ubuntu 16.04 
+Openssl library
 
 
 Steps to run,
