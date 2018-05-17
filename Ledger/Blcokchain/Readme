@@ -1,0 +1,27 @@
+Environmental requirement:
+C++ compiler that can compile C++ 11 standard , gcc version 5.4.0 
+Linux OS, Ubuntu 16.04 
+Openssl library path - "/cise/homes/nemo/bin/ssl/openssl/"
+
+
+Two separate programs - txblk and wallet 
+Two separate tar files - txblk.tar and wallet.tar
+
+Steps to run,
+
+1. Extract the given txblk.tar and wallet.tar file using "tar -xvf txblk.tar" and "tar -xvf wallet.tar"
+2. Change directory to txblk or wallet
+3. Run makefile using "make all" command and this will compile and install the txblk or wallet executable accordingly
+
+
+For cyrpto operations, all public and private key files are expected to be within "txblk" and "wallet" folders
+Keys given for Alice and Bob (public and private) are present in both the folders (Ex - alicepubli_key.pem, aliceprivate_key.pem)
+Sample test files are also present
+For txblk, test4.txt
+For wallet, test5.txt
+
+The correctness of the ledger maintenance depends on the correctness of the transaction records given as input. It is necessary that
+the first transaction in ledger has 0 vout and the first (if there are multiple) output is considered the owner for genesis transaction
+
+NOTE:
+Signatures are represented in Base64 format due to technical issues wrt Openssl APIs
